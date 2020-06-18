@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.board-wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.board {
+  width: 50rem;
+  height: 40rem;
+  background-color: lightblue;
+}
+
+.row {
+  width: 100%;
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  width: 25%;
+  height: 95%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+}
+
+.card.hide-image .image {
+  display: none;
+}
+
+.card.green {
+  background: darkgreen;
+}
+/*# sourceMappingURL=style.css.map */
