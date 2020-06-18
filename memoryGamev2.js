@@ -38,6 +38,9 @@ class Board {
             const j = Math.floor(Math.random() * (i + 1));
             [imagesCopy[i], imagesCopy[j]] = [imagesCopy[j], imagesCopy[i]];
         }
+        // hsdiasdbiashbd
+
+
 
         return imagesCopy;
     }
